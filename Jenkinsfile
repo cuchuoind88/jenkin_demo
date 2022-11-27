@@ -10,5 +10,6 @@ pipeline
               git branch: 'main', url: 'https://github.com/cuchuoind88/jenkin_demo.git'
             }
         }
+        
     }
 }
