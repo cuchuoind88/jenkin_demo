@@ -7,7 +7,7 @@ pipeline
         {
             steps
             {
-              echo 'Hello word 1234'
+              git branch: 'main', url: 'https://github.com/cuchuoind88/jenkin_demo.git'
             }
         }
     }
