@@ -10,6 +10,14 @@ pipeline
               git branch: 'main', url: 'https://github.com/cuchuoind88/jenkin_demo.git'
             }
         }
-        
+
+    }
+    post
+    {
+        always
+        {
+            mail bcc: '', body: '''Congratulation...
+            BUILD SUCCESSFULLY!''', cc: '', from: '', replyTo: '', subject: 'Build Notification', to: '20521081@gm.uit.edu.vn'
+        }
     }
 }
