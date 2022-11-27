@@ -7,7 +7,7 @@ pipeline
         {
             steps
             {
-              echo 'Hello word 123'
+              echo 'Hello word 1234'
             }
         }
     }
