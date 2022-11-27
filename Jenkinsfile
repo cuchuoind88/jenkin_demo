@@ -7,7 +7,7 @@ pipeline
         {
             steps
             {
-              git 'https://github.com/cuchuoind88/lotteria.git'
+              echo 'Hello word 123'
             }
         }
     }
